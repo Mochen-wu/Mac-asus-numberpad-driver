@@ -1,3 +1,52 @@
+# ASUS‑ROG‑G533‑NumberPad‑Hackintosh
+> Ported ASUS NumberPad driver for ROG Hackintosh
+
+## 中文
+### 项目介绍
+本项目基于开源 Linux 项目 [asus‑linux‑drivers/asus‑numberpad‑driver](https://github.com/asus-linux-drivers/asus-numberpad-driver) 进行移植改造。
+将 **G614JVR（枪神8）** 的数字小键盘驱动代码适配为 G533，借助 Workbuddy Ai 完成移植与测试，实现黑苹果 macOS 下华硕 ROG 触控板数字小键盘完整功能。
+
+### 支持硬件
+✅ 仅适用于搭载 **G533 数字小键盘** 的 ROG 系列笔记本电脑
+
+### 功能状态
+- 数字小键盘完整可用
+- NumberPad 背光灯光控制正常
+- 切换、开关逻辑全部工作正常
+- **暂无已知限制，全部预期功能均可正常使用**
+
+### 致谢
+感谢 [asus‑linux‑drivers/asus‑numberpad‑driver](https://github.com/asus-linux-drivers/asus-numberpad-driver) 项目以及该项目的所有作者。
+感谢 Workbuddy Ai 协助移植与测试工作。
+
+本项目衍生自：https://github.com/asus-linux-drivers/asus-numberpad-driver
+
+***
+
+## English
+### About This Project
+This project is ported and modified from the open‑source Linux project [asus‑linux‑drivers/asus‑numberpad‑driver](https://github.com/asus-linux-drivers/asus-numberpad-driver).
+
+The NumberPad driver code from **G614JVR (ROG Strix G8)** has been adapted for G533. Porting and testing were completed with assistance from Workbuddy Ai, delivering full NumberPad functionality on Hackintosh macOS.
+
+### Supported Hardware
+✅ **Only for ROG laptops equipped with the G533 NumberPad**
+
+### Feature Status
+- Full NumberPad input functionality
+- NumberPad backlight brightness and lighting control works correctly
+- Toggle / enable‑disable logic operates as expected
+- **No known limitations. All intended features work properly.**
+
+### Acknowledgements
+Thanks to the project [asus‑linux‑drivers/asus‑numberpad‑driver](https://github.com/asus-linux-drivers/asus-numberpad-driver) and all its authors.
+Thanks to Workbuddy Ai for porting and testing assistance.
+
+This project is derived from: https://github.com/asus-linux-drivers/asus-numberpad-driver
+
+
+
+
 # Asus touchpad NumberPad driver
 
 [![License: GPL v2](https://img.shields.io/badge/License-GPLv2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
